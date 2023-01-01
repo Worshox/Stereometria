@@ -1,1 +1,1 @@
-"# Stereometria" 
+# Stereometria

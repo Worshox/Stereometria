@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "three.js": "^0.77.0"
+  },
+  "name": "stereometria",
+  "description": "\"# Stereometria\"",
+  "version": "0.0.1",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Worshox/Stereometria.git"
+  },
+  "keywords": [
+    "stereometria"
+  ],
+  "author": "Wojciech Chrzan aka Worshox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Worshox/Stereometria/issues"
+  },
+  "homepage": "https://github.com/Worshox/Stereometria#readme"
+}
