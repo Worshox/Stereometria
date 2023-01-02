@@ -1,0 +1,30 @@
+* {
+  color: white;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: hsl(224, 14%, 22%);
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+}
+
+nav,
+footer {
+  background: hsl(190, 10%, 12%);
+}
+
+#c {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
