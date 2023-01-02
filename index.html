@@ -5,10 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stereometria</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="node_modules/three.js/build/three.js"></script>
-    <script src="script.js" type="module"></script>
-    <canvas id="c"></canvas>
+    <script  type="importmap">
+        {
+            "imports": {
+                "three": "https://threejs.org/build/three.module.js"
+            }
+        }
+    </script>
+    <script  type="module" src="script.js"></script>
+    <header>
+        <h1>Stereometria</h1>
+    </header>
+    <main>
+        <nav></nav>
+        <section>
+            <canvas id="c"></canvas>
+        </section>
+    </main>
+    <footer>
+        <address>To jest stopka</address>
+    </footer>
 </body>
 </html>
