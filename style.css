@@ -1,16 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
 * {
-  color: white;
+  color: #c8d3e1;
 }
 
 html,
 body {
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: hsl(224, 14%, 22%);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  background: hsl(225, 20%, 10%);
 }
 
 header {
   text-align: center;
+  overflow: auto;
+  border-bottom: 1px solid #3e4c5a;
+}
+
+nav {
+  margin-left: 20px;
+  border-right: 1px solid #3e4c5a;
 }
 
 main {
@@ -18,9 +28,12 @@ main {
   grid-template-columns: 0.2fr 1fr;
 }
 
-nav,
 footer {
-  background: hsl(190, 10%, 12%);
+  border-top: 1px solid #3e4c5a;
+}
+
+li {
+  margin: 5px auto;
 }
 
 #c {
