@@ -12,6 +12,7 @@ function main() {
     camera.position.z = 2;
 
     const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x222734);
 
     {
         const color = 0xFFFFFF;
