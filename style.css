@@ -32,8 +32,31 @@ footer {
   border-top: 1px solid #3e4c5a;
 }
 
+button {
+  background: none;
+  border: none;
+}
+
+h2 {
+  margin: 10px 0;
+}
+
+h3 {
+  font-weight: 500;
+  margin: 0;
+}
+
+ol {
+  margin: 0;
+}
+
 li {
   margin: 5px auto;
+}
+
+.rolled {
+  height: 0;
+  overflow: hidden;
 }
 
 #c {
