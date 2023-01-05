@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stereometria</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
     <script  type="importmap">
         {
             "imports": {
@@ -15,17 +13,20 @@
             }
         }
     </script>
-    <script  type="module" src="script.js"></script>
+    <script type="module" src="script-3d.js"></script>
+    <script src="script-website.js" defer></script>
+</head>
+<body>
     <header>
         <h1>STEREOMETRIA</h1>
     </header>
     <main>
         <nav>
-            <h2>Wielościany</h2>
-            <ol>
+            <button><h2>Wielościany</h2></button>
+            <ol class="rolled">
                 <li>
-                    Graniastosłup
-                    <ol>
+                    <button><h3>Graniastosłup</h3></button>
+                    <ol class="rolled">
                         <li>Sześcian</li>
                         <li>Prostopadłościan</li>
                         <li>Prawidłowy trójkątny</li>
@@ -34,10 +35,9 @@
                         <li>Prawidłowy sześciokątny</li>
                     </ol>
                 </li>
-                <br>
                 <li>
-                    Ostrosłup
-                    <ol>
+                    <button><h3>Ostrosłup</h3></button>
+                    <ol class="rolled">
                         <li>Czworościan foremny</li>
                         <li>Prawidłowy trójkątny</li>
                         <li>Prawidłowy czworokątny</li>
@@ -47,22 +47,22 @@
                 </li>
             </ol>
 
-            <h2>Bryły obrotowe</h2>
-            <ol>
+            <button><h2>Bryły obrotowe</h2></button>
+            <ol class="rolled">
                 <li>Walec</li>
                 <li>Stożek</li>
                 <li>Kula</li>
             </ol>
 
-            <h2>Bryły idealne</h2>
-            <ol>
+            <button><h2>Bryły idealne</h2></button>
+            <ol class="rolled">
                 <li>Sześcian</li>
                 <li>Czworościan foremny</li>
                 <li>Kula</li>
             </ol>
 
-            <h2>Bryły specjalne</h2>
-            <ol>
+            <button><h2>Bryły specjalne</h2></button>
+            <ol class="rolled">
                 <li>Pierścień (Donut)</li>
             </ol>
         </ol>
