@@ -19,7 +19,7 @@ header {
 }
 
 nav {
-  margin-left: 20px;
+  padding: 20px;
   border-right: 1px solid #3e4c5a;
 }
 
@@ -37,8 +37,17 @@ button {
   border: none;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 h2 {
   margin: 10px 0;
+}
+
+h2::after {
+  content: url(./dropdown-arrow.webp);
+  margin-left: 10px;
 }
 
 h3 {
@@ -47,7 +56,13 @@ h3 {
 }
 
 ol {
+  max-height: 1000px;
   margin: 0;
+  overflow: hidden;
+  transition-duration: 1s;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0ms;
 }
 
 li {
@@ -55,8 +70,7 @@ li {
 }
 
 .rolled {
-  height: 0;
-  overflow: hidden;
+  max-height: 0;
 }
 
 #c {
