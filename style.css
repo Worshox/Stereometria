@@ -47,7 +47,13 @@ h2 {
 
 h2::after {
   content: url(./dropdown-arrow.webp);
+  display: inline-block;
   margin-left: 10px;
+  transform: rotate(-90deg);
+  scale: 0.5;
+  animation-name: arrowRotateBack;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
 }
 
 h3 {
@@ -77,4 +83,22 @@ li {
   display: block;
   height: 100%;
   width: 100%;
+}
+
+@keyframes arrowRotateBack {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-90deg);
+  }
+}
+
+@keyframes arrowRotate {
+  from {
+    transform: rotate(-90deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
 }
